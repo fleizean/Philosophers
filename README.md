@@ -1,24 +1,21 @@
 # Philosophers
 
-Bu proje, muteks ve semafor kullanımıyla çoklu iş parçacıklı/çok işlemli programlamaya yönelik bir projedir.
-Yapmamız gereken Ünlü Philosophers probleminin simüle eden bir program yazmaktır.
+This project is aimed at multi-threaded/multi-processed programming using mutexes and semaphores. We need to write a program that simulates the Famous Philosophers problem.
 
-# KURALLAR
+# RULES
 
-```
-- Birkaç filozof yuvarlak bir masada oturuyor ve üç şeyden birini yapıyor: 
-  yemek yemek, düşünmek veya uyumak.
-- Yemek yerken düşünmezler veya uyumazlar, uyurken yemek yemezler. Ya da düşünüyorlar
-  ve tabii ki düşünürken yemek yemezler veya uyumazlar.
-- Filozoflar, ortasında büyük bir spagetti kasesi olan dairesel bir masada oturuyor.
-- Masada bazı çatallar var
-- Spagettiyi tek çatalla servis etmek ve yemek zor olduğundan, filozof, 
-  her iki el için birer tane olmak üzere iki çatalla yemek yemelidir.
-- Verilen parametreler doğru ise filozoflar asla açlıktan ölmemelidir.
-- Her filozofun yemek yemesi gerekir.
-- Filozoflar birbiriyle konuşmazlar
-- Filozoflar başka bir filozofun ne zaman öleceğini bilemezler.
-- Filozof yemek yemeyi her bitirdiğinde uykuya dalar.
-- Filozof uykuyu bitirince düşünmeye başlar.
-- Bir filozof öldüyse simülasyon kapanır.
-```
+
+- Several philosophers are sitting at a round table and doing one of three things:
+- eating, thinking, or sleeping.
+- They do not think or sleep while eating, or eat while sleeping. Or of course, they do not eat or sleep - while thinking.
+- The philosophers are sitting at a circular table with a large spaghetti bowl in the middle.
+- There are some forks on the table.
+- Because it is difficult to serve and eat spaghetti with one fork, the philosopher
+- must eat with two forks, one for each hand.
+- If the given parameters are correct, philosophers should never die of hunger.
+- Each philosopher must eat.
+- Philosophers do not talk to each other.
+- Philosophers cannot know when another philosopher dies.
+- When a philosopher finishes eating, they fall asleep.
+- When a philosopher finishes sleeping, they start thinking.
+- If a philosopher dies, the simulation ends.
